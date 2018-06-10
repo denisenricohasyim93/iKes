@@ -1,0 +1,24 @@
+{
+  "connection": "default",
+  "collectionName": "tempattidurs",
+  "info": {
+    "name": "tempattidur",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "IDRuangan": {
+      "type": "integer"
+    },
+    "IDRawatInap": {
+      "type": "integer"
+    },
+    "Biaya": {
+      "type": "float"
+    }
+  }
+}

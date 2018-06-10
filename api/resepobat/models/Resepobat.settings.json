@@ -1,0 +1,27 @@
+{
+  "connection": "default",
+  "collectionName": "resepobats",
+  "info": {
+    "name": "resepobat",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "Obat": {
+      "type": "string"
+    },
+    "IDPertemuanDokterPasien": {
+      "type": "integer"
+    },
+    "Tanggal Resep": {
+      "type": "string"
+    },
+    "Keterangan": {
+      "type": "string"
+    }
+  }
+}

@@ -1,1 +1,299 @@
-{}
+{
+  "Dokter": {
+    "attributes": {
+      "NamaDepan": {
+        "appearance": ""
+      },
+      "NamaBelakang": {
+        "appearance": ""
+      },
+      "Alamat": {
+        "appearance": ""
+      },
+      "Kota": {
+        "appearance": ""
+      },
+      "Propinsi": {
+        "appearance": ""
+      },
+      "KodePos": {
+        "appearance": ""
+      },
+      "Negara": {
+        "appearance": ""
+      },
+      "TanggalLahir": {
+        "appearance": ""
+      },
+      "NoKTP": {
+        "appearance": ""
+      },
+      "NoHP": {
+        "appearance": ""
+      },
+      "NoIndukDokter": {
+        "appearance": ""
+      },
+      "DeskripsiKeahlian": {
+        "appearance": ""
+      },
+      "TahunPengalaman": {
+        "appearance": ""
+      },
+      "NoDepartemen": {
+        "appearance": ""
+      },
+      "TanggalMasuk": {
+        "appearance": ""
+      }
+    }
+  },
+  "Pasien": {
+    "attributes": {
+      "NamaDepan": {
+        "appearance": ""
+      },
+      "NamaBelakang": {
+        "appearance": ""
+      },
+      "Alamat": {
+        "appearance": ""
+      },
+      "Kota": {
+        "appearance": ""
+      },
+      "Propinsi": {
+        "appearance": ""
+      },
+      "KodePos": {
+        "appearance": ""
+      },
+      "Negara": {
+        "appearance": ""
+      },
+      "TanggalLahir": {
+        "appearance": ""
+      },
+      "NoKTP": {
+        "appearance": ""
+      },
+      "NoHP": {
+        "appearance": ""
+      },
+      "TanggalRegistrasi": {
+        "appearance": ""
+      }
+    }
+  },
+  "Obat": {
+    "attributes": {
+      "NamaObat": {
+        "appearance": ""
+      },
+      "DeskripsiObat": {
+        "appearance": ""
+      },
+      "HargaSatuan": {
+        "appearance": ""
+      },
+      "Stok": {
+        "appearance": ""
+      }
+    }
+  },
+  "PertemuanDokterPasien": {
+    "attributes": {
+      "IDPasien": {
+        "appearance": ""
+      },
+      "IDDokter": {
+        "appearance": ""
+      },
+      "Treatment": {
+        "appearance": ""
+      },
+      "TanggalTreatment": {
+        "appearance": ""
+      },
+      "Biaya": {
+        "appearance": ""
+      }
+    }
+  },
+  "ResepObat": {
+    "attributes": {
+      "Obat": {
+        "appearance": ""
+      },
+      "IDPertemuanDokterPasien": {
+        "appearance": ""
+      },
+      "Tanggal Resep": {
+        "appearance": ""
+      },
+      "Keterangan": {
+        "appearance": ""
+      }
+    }
+  },
+  "Pembayaran": {
+    "attributes": {
+      "IDPasien": {
+        "appearance": ""
+      },
+      "TotalBiaya": {
+        "appearance": ""
+      }
+    }
+  },
+  "departemen": {
+    "attributes": {
+      "NamaDepartemen": {
+        "appearance": ""
+      },
+      "NamaKepalaDepartemen": {
+        "appearance": ""
+      },
+      "IDKlinik": {
+        "appearance": ""
+      },
+      "Keterangan": {
+        "appearance": ""
+      }
+    }
+  },
+  "Perawat": {
+    "attributes": {
+      "NamaDepan": {
+        "appearance": ""
+      },
+      "NamaBelakang": {
+        "appearance": ""
+      },
+      "Alamat": {
+        "appearance": ""
+      },
+      "Kota": {
+        "appearance": ""
+      },
+      "Propinsi": {
+        "appearance": ""
+      },
+      "KodePos": {
+        "appearance": ""
+      },
+      "Negara": {
+        "appearance": ""
+      },
+      "TanggalLahir": {
+        "appearance": ""
+      },
+      "NoKTP": {
+        "appearance": ""
+      }
+    }
+  },
+  "perawat": {
+    "attributes": {
+      "NoHP": {
+        "appearance": ""
+      },
+      "DeskripsiKeahlian": {
+        "appearance": ""
+      },
+      "TahunPengalaman": {
+        "appearance": ""
+      },
+      "IDDepartemen": {
+        "appearance": ""
+      },
+      "Tanggal Masuk": {
+        "appearance": ""
+      }
+    }
+  },
+  "Klinik": {
+    "attributes": {
+      "NamaKlinik": {
+        "appearance": ""
+      },
+      "Alamat": {
+        "appearance": ""
+      },
+      "Keterangan": {
+        "appearance": ""
+      }
+    }
+  },
+  "RawatInap": {
+    "attributes": {
+      "IDPasien": {
+        "appearance": ""
+      },
+      "TanggalRawatInap": {
+        "appearance": ""
+      },
+      "Keterangan": {
+        "appearance": ""
+      }
+    }
+  },
+  "Bed": {
+    "attributes": {
+      "IDRuangan": {
+        "appearance": ""
+      },
+      "IDRawatInap": {
+        "appearance": ""
+      },
+      "Biaya": {
+        "appearance": ""
+      }
+    }
+  },
+  "TempatTidur": {
+    "attributes": {
+      "IDRuangan": {
+        "appearance": ""
+      },
+      "IDRawatInap": {
+        "appearance": ""
+      },
+      "Biaya": {
+        "appearance": ""
+      }
+    }
+  },
+  "Ruangan": {
+    "attributes": {
+      "IDTipeRuangan": {
+        "appearance": ""
+      },
+      "NomorRuangan": {
+        "appearance": ""
+      },
+      "IDDepartemen": {
+        "appearance": ""
+      },
+      "Tersedia": {
+        "appearance": ""
+      }
+    }
+  },
+  "TipeRuangan": {
+    "attributes": {
+      "NamaRuangan": {
+        "appearance": ""
+      },
+      "DeskripsiRuangan": {
+        "appearance": ""
+      },
+      "Kapasitas": {
+        "appearance": ""
+      },
+      "Harga": {
+        "appearance": ""
+      }
+    }
+  }
+}

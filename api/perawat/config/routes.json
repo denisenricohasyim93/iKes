@@ -1,0 +1,76 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/perawat",
+      "handler": "Perawat.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/perawat/:id",
+      "handler": "Perawat.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/perawat/count",
+      "handler": "Perawat.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/perawat",
+      "handler": "Perawat.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/perawat/:id",
+      "handler": "Perawat.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/perawat/:id",
+      "handler": "Perawat.destroy",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/perawat/:id/relationships/:relation",
+      "handler": "Perawat.createRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/perawat/:id/relationships/:relation",
+      "handler": "Perawat.updateRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/perawat/:id/relationships/:relation",
+      "handler": "Perawat.destroyRelation",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

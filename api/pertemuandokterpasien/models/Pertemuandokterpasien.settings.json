@@ -1,0 +1,30 @@
+{
+  "connection": "default",
+  "collectionName": "pertemuandokterpasiens",
+  "info": {
+    "name": "pertemuandokterpasien",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "IDPasien": {
+      "type": "integer"
+    },
+    "IDDokter": {
+      "type": "integer"
+    },
+    "Treatment": {
+      "type": "string"
+    },
+    "TanggalTreatment": {
+      "type": "string"
+    },
+    "Biaya": {
+      "type": "float"
+    }
+  }
+}

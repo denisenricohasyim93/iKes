@@ -1,0 +1,24 @@
+{
+  "connection": "default",
+  "collectionName": "kliniks",
+  "info": {
+    "name": "klinik",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "NamaKlinik": {
+      "type": "string"
+    },
+    "Alamat": {
+      "type": "string"
+    },
+    "Keterangan": {
+      "type": "string"
+    }
+  }
+}

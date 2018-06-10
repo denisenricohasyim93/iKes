@@ -1,0 +1,76 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/ruangan",
+      "handler": "Ruangan.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/ruangan/:id",
+      "handler": "Ruangan.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/ruangan/count",
+      "handler": "Ruangan.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/ruangan",
+      "handler": "Ruangan.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/ruangan/:id",
+      "handler": "Ruangan.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/ruangan/:id",
+      "handler": "Ruangan.destroy",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/ruangan/:id/relationships/:relation",
+      "handler": "Ruangan.createRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/ruangan/:id/relationships/:relation",
+      "handler": "Ruangan.updateRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/ruangan/:id/relationships/:relation",
+      "handler": "Ruangan.destroyRelation",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

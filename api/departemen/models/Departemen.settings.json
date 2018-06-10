@@ -1,0 +1,27 @@
+{
+  "connection": "default",
+  "collectionName": "departemen",
+  "info": {
+    "name": "departemen",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "NamaDepartemen": {
+      "type": "string"
+    },
+    "NamaKepalaDepartemen": {
+      "type": "string"
+    },
+    "IDKlinik": {
+      "type": "integer"
+    },
+    "Keterangan": {
+      "type": "string"
+    }
+  }
+}

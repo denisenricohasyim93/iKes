@@ -1,0 +1,21 @@
+{
+  "connection": "default",
+  "collectionName": "pembayarans",
+  "info": {
+    "name": "pembayaran",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "IDPasien": {
+      "type": "integer"
+    },
+    "TotalBiaya": {
+      "type": "float"
+    }
+  }
+}

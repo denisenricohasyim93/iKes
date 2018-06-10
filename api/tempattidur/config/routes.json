@@ -1,0 +1,76 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/tempattidur",
+      "handler": "Tempattidur.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tempattidur/:id",
+      "handler": "Tempattidur.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tempattidur/count",
+      "handler": "Tempattidur.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/tempattidur",
+      "handler": "Tempattidur.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/tempattidur/:id",
+      "handler": "Tempattidur.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/tempattidur/:id",
+      "handler": "Tempattidur.destroy",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/tempattidur/:id/relationships/:relation",
+      "handler": "Tempattidur.createRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/tempattidur/:id/relationships/:relation",
+      "handler": "Tempattidur.updateRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/tempattidur/:id/relationships/:relation",
+      "handler": "Tempattidur.destroyRelation",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

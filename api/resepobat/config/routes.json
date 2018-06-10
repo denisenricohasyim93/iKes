@@ -1,0 +1,76 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/resepobat",
+      "handler": "Resepobat.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/resepobat/:id",
+      "handler": "Resepobat.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/resepobat/count",
+      "handler": "Resepobat.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/resepobat",
+      "handler": "Resepobat.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/resepobat/:id",
+      "handler": "Resepobat.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/resepobat/:id",
+      "handler": "Resepobat.destroy",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/resepobat/:id/relationships/:relation",
+      "handler": "Resepobat.createRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/resepobat/:id/relationships/:relation",
+      "handler": "Resepobat.updateRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/resepobat/:id/relationships/:relation",
+      "handler": "Resepobat.destroyRelation",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

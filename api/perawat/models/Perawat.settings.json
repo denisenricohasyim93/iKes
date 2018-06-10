@@ -1,0 +1,57 @@
+{
+  "connection": "default",
+  "collectionName": "perawats",
+  "info": {
+    "name": "perawat",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "NamaDepan": {
+      "type": "string"
+    },
+    "NamaBelakang": {
+      "type": "string"
+    },
+    "Alamat": {
+      "type": "string"
+    },
+    "Kota": {
+      "type": "string"
+    },
+    "Propinsi": {
+      "type": "string"
+    },
+    "KodePos": {
+      "type": "string"
+    },
+    "Negara": {
+      "type": "string"
+    },
+    "TanggalLahir": {
+      "type": "string"
+    },
+    "NoKTP": {
+      "type": "integer"
+    },
+    "NoHP": {
+      "type": "integer"
+    },
+    "DeskripsiKeahlian": {
+      "type": "string"
+    },
+    "TahunPengalaman": {
+      "type": "integer"
+    },
+    "IDDepartemen": {
+      "type": "integer"
+    },
+    "Tanggal Masuk": {
+      "type": "string"
+    }
+  }
+}

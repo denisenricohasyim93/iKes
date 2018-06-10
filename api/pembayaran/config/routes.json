@@ -1,0 +1,76 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pembayaran",
+      "handler": "Pembayaran.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pembayaran/:id",
+      "handler": "Pembayaran.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pembayaran/count",
+      "handler": "Pembayaran.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/pembayaran",
+      "handler": "Pembayaran.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pembayaran/:id",
+      "handler": "Pembayaran.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pembayaran/:id",
+      "handler": "Pembayaran.destroy",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/pembayaran/:id/relationships/:relation",
+      "handler": "Pembayaran.createRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pembayaran/:id/relationships/:relation",
+      "handler": "Pembayaran.updateRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pembayaran/:id/relationships/:relation",
+      "handler": "Pembayaran.destroyRelation",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

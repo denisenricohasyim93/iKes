@@ -1,0 +1,76 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/klinik",
+      "handler": "Klinik.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/klinik/:id",
+      "handler": "Klinik.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/klinik/count",
+      "handler": "Klinik.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/klinik",
+      "handler": "Klinik.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/klinik/:id",
+      "handler": "Klinik.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/klinik/:id",
+      "handler": "Klinik.destroy",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/klinik/:id/relationships/:relation",
+      "handler": "Klinik.createRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/klinik/:id/relationships/:relation",
+      "handler": "Klinik.updateRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/klinik/:id/relationships/:relation",
+      "handler": "Klinik.destroyRelation",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

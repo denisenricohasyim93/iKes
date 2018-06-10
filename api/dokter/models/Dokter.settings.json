@@ -1,0 +1,65 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "Dokter",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "NamaDepan": {
+      "type": "string"
+    },
+    "NamaBelakang": {
+      "type": "string"
+    },
+    "Alamat": {
+      "type": "string"
+    },
+    "Kota": {
+      "type": "string"
+    },
+    "Propinsi": {
+      "type": "string"
+    },
+    "KodePos": {
+      "type": "string"
+    },
+    "Negara": {
+      "type": "string"
+    },
+    "TanggalLahir": {
+      "type": "string"
+    },
+    "NoKTP": {
+      "type": "integer"
+    },
+    "NoHP": {
+      "type": "integer"
+    },
+    "NoIndukDokter": {
+      "type": "integer"
+    },
+    "DeskripsiKeahlian": {
+      "type": "string"
+    },
+    "TahunPengalaman": {
+      "type": "integer"
+    },
+    "NoDepartemen": {
+      "type": "integer"
+    },
+    "TanggalMasuk": {
+      "type": "string"
+    },
+    "PasFoto": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    }
+  }
+}

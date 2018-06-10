@@ -1,0 +1,76 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/tiperuangan",
+      "handler": "Tiperuangan.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tiperuangan/:id",
+      "handler": "Tiperuangan.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tiperuangan/count",
+      "handler": "Tiperuangan.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/tiperuangan",
+      "handler": "Tiperuangan.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/tiperuangan/:id",
+      "handler": "Tiperuangan.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/tiperuangan/:id",
+      "handler": "Tiperuangan.destroy",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/tiperuangan/:id/relationships/:relation",
+      "handler": "Tiperuangan.createRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/tiperuangan/:id/relationships/:relation",
+      "handler": "Tiperuangan.updateRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/tiperuangan/:id/relationships/:relation",
+      "handler": "Tiperuangan.destroyRelation",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

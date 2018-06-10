@@ -1,0 +1,24 @@
+{
+  "connection": "default",
+  "collectionName": "rawatinaps",
+  "info": {
+    "name": "rawatinap",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "IDPasien": {
+      "type": "integer"
+    },
+    "TanggalRawatInap": {
+      "type": "string"
+    },
+    "Keterangan": {
+      "type": "string"
+    }
+  }
+}

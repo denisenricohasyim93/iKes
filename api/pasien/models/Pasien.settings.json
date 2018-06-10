@@ -1,0 +1,48 @@
+{
+  "connection": "default",
+  "collectionName": "pasiens",
+  "info": {
+    "name": "pasien",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "NamaDepan": {
+      "type": "string"
+    },
+    "NamaBelakang": {
+      "type": "string"
+    },
+    "Alamat": {
+      "type": "string"
+    },
+    "Kota": {
+      "type": "string"
+    },
+    "Propinsi": {
+      "type": "string"
+    },
+    "KodePos": {
+      "type": "string"
+    },
+    "Negara": {
+      "type": "string"
+    },
+    "TanggalLahir": {
+      "type": "string"
+    },
+    "NoKTP": {
+      "type": "integer"
+    },
+    "NoHP": {
+      "type": "integer"
+    },
+    "TanggalRegistrasi": {
+      "type": "string"
+    }
+  }
+}

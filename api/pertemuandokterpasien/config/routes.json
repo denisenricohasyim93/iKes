@@ -1,0 +1,76 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pertemuandokterpasien",
+      "handler": "Pertemuandokterpasien.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pertemuandokterpasien/:id",
+      "handler": "Pertemuandokterpasien.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pertemuandokterpasien/count",
+      "handler": "Pertemuandokterpasien.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/pertemuandokterpasien",
+      "handler": "Pertemuandokterpasien.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pertemuandokterpasien/:id",
+      "handler": "Pertemuandokterpasien.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pertemuandokterpasien/:id",
+      "handler": "Pertemuandokterpasien.destroy",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/pertemuandokterpasien/:id/relationships/:relation",
+      "handler": "Pertemuandokterpasien.createRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pertemuandokterpasien/:id/relationships/:relation",
+      "handler": "Pertemuandokterpasien.updateRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pertemuandokterpasien/:id/relationships/:relation",
+      "handler": "Pertemuandokterpasien.destroyRelation",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

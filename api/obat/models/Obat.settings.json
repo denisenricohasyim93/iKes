@@ -1,0 +1,24 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "Obat",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "NamaObat": {
+      "type": "string"
+    },
+    "DeskripsiObat": {
+      "type": "string"
+    },
+    "HargaSatuan": {
+      "type": "integer"
+    }
+  }
+}

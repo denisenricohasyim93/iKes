@@ -1,0 +1,76 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/departemen",
+      "handler": "Departemen.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/departemen/:id",
+      "handler": "Departemen.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/departemen/count",
+      "handler": "Departemen.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/departemen",
+      "handler": "Departemen.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/departemen/:id",
+      "handler": "Departemen.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/departemen/:id",
+      "handler": "Departemen.destroy",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/departemen/:id/relationships/:relation",
+      "handler": "Departemen.createRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/departemen/:id/relationships/:relation",
+      "handler": "Departemen.updateRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/departemen/:id/relationships/:relation",
+      "handler": "Departemen.destroyRelation",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

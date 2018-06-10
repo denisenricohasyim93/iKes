@@ -1,0 +1,76 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/rawatinap",
+      "handler": "Rawatinap.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/rawatinap/:id",
+      "handler": "Rawatinap.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/rawatinap/count",
+      "handler": "Rawatinap.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/rawatinap",
+      "handler": "Rawatinap.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/rawatinap/:id",
+      "handler": "Rawatinap.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/rawatinap/:id",
+      "handler": "Rawatinap.destroy",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/rawatinap/:id/relationships/:relation",
+      "handler": "Rawatinap.createRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/rawatinap/:id/relationships/:relation",
+      "handler": "Rawatinap.updateRelation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/rawatinap/:id/relationships/:relation",
+      "handler": "Rawatinap.destroyRelation",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
