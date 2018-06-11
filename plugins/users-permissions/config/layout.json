@@ -1,1 +1,18 @@
-{}
+{
+  "user": {
+    "attributes": {
+      "isDokter": {
+        "appearance": ""
+      },
+      "isPasien": {
+        "appearance": ""
+      },
+      "isPerawat": {
+        "appearance": ""
+      },
+      "isPemilik": {
+        "appearance": ""
+      }
+    }
+  }
+}

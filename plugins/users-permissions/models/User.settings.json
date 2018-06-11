@@ -38,6 +38,19 @@
       "via": "users",
       "plugin": "users-permissions",
       "configurable": false
+    },
+    "isDokter": {
+      "type": "boolean"
+    },
+    "isPasien": {
+      "type": "boolean"
+    },
+    "isPerawat": {
+      "type": "boolean"
+    },
+    "isPemilik": {
+      "type": "boolean"
     }
-  }
+  },
+  "collectionName": "users-permissions_user"
 }
