@@ -45,6 +45,9 @@
       },
       "TanggalMasuk": {
         "appearance": ""
+      },
+      "SIP": {
+        "appearance": ""
       }
     }
   },
@@ -209,6 +212,9 @@
       },
       "Tanggal Masuk": {
         "appearance": ""
+      },
+      "NoKTP": {
+        "appearance": ""
       }
     }
   },
@@ -292,6 +298,16 @@
         "appearance": ""
       },
       "Harga": {
+        "appearance": ""
+      }
+    }
+  },
+  "pasien": {
+    "attributes": {
+      "NoKTP": {
+        "appearance": ""
+      },
+      "NoHP": {
         "appearance": ""
       }
     }

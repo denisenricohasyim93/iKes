@@ -35,12 +35,6 @@
     "TanggalLahir": {
       "type": "string"
     },
-    "NoKTP": {
-      "type": "integer"
-    },
-    "NoHP": {
-      "type": "integer"
-    },
     "DeskripsiKeahlian": {
       "type": "string"
     },
@@ -51,6 +45,12 @@
       "type": "integer"
     },
     "Tanggal Masuk": {
+      "type": "string"
+    },
+    "NoKTP": {
+      "type": "string"
+    },
+    "NoHP": {
       "type": "string"
     }
   }

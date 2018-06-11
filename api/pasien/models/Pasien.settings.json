@@ -35,13 +35,13 @@
     "TanggalLahir": {
       "type": "string"
     },
+    "TanggalRegistrasi": {
+      "type": "string"
+    },
     "NoKTP": {
-      "type": "integer"
+      "type": "string"
     },
     "NoHP": {
-      "type": "integer"
-    },
-    "TanggalRegistrasi": {
       "type": "string"
     }
   }

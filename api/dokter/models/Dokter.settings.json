@@ -1,6 +1,6 @@
 {
   "connection": "default",
-  "collectionName": "",
+  "collectionName": "dokter",
   "info": {
     "name": "Dokter",
     "description": ""
@@ -35,15 +35,6 @@
     "TanggalLahir": {
       "type": "string"
     },
-    "NoKTP": {
-      "type": "integer"
-    },
-    "NoHP": {
-      "type": "integer"
-    },
-    "NoIndukDokter": {
-      "type": "integer"
-    },
     "DeskripsiKeahlian": {
       "type": "string"
     },
@@ -60,6 +51,15 @@
       "model": "file",
       "via": "related",
       "plugin": "upload"
+    },
+    "NoKTP": {
+      "type": "string"
+    },
+    "NoHP": {
+      "type": "string"
+    },
+    "SIP": {
+      "type": "string"
     }
   }
 }
